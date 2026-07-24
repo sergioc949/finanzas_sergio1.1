@@ -19,7 +19,7 @@ npm run preview  # sirve el build
 npm run lint
 ```
 
-El resultado de `npm run build` es estático: se puede publicar tal cual en Vercel, Netlify o GitHub Pages.
+`npm run build` genera un **único `dist/index.html`** con el JS y el CSS en línea: puedes publicarlo en Vercel, Netlify o GitHub Pages, o simplemente abrirlo con doble clic desde el disco (`file://`).
 
 ## Funcionalidad
 
